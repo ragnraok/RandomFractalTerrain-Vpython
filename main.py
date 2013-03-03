@@ -8,13 +8,13 @@ SMOOTHNESS = 1
 def parser_arg(arg):
     global SIZE, Z_SCALE, SMOOTHNESS
     parser = argparse.ArgumentParser(
-            description="the visualization of randomfractal terrain with vpython")
+            description="the visualization of random fractal terrain with vpython")
     parser.add_argument("--size", default=40, nargs="?", 
     help="the size of the terrain, default is 40")
     parser.add_argument("--z_scale", default=70, nargs="?",
             help="this value affect the maximum and minimum height of terrain, default is 70")
     parser.add_argument("--smoothness", default=1, nargs="?",
-            help="the smoothness of the terrain, higher this value, smoother the terrain default is 1")
+            help="the smoothness of the terrain, higher this value, smoother the terrain, default is 1")
     name_space = parser.parse_args(arg)
     SIZE = int(name_space.size)
     Z_SCALE = int(name_space.z_scale)
