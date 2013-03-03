@@ -3,6 +3,8 @@ RandomFractalTerrain-Vpython
 
 random fractal terrain demo with vpython
 
+![][3]
+
 this demo was inspired by [qiao/fractal-terrain-generator][1], but use vpython instead
 
 # Dependence:
@@ -35,3 +37,4 @@ then ``height`` is a ``size x size`` array contains the elevation of terrain
 
 [1]: https://github.com/qiao/fractal-terrain-generator
 [2]: http://vpython.org/
+[3]: https://raw.github.com/ragnraok/RandomFractalTerrain-Vpython/master/DeepinScrot-1222.png
