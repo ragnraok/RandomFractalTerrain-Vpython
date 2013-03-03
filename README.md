@@ -17,13 +17,13 @@ this demo was inspired by [qiao/fractal-terrain-generator][1], but use vpython i
 usage: main.py [-h] [--size [SIZE]] [--z_scale [Z_SCALE]]
                [--smoothness [SMOOTHNESS]]
 
-               the visualization of randomfractal terrain with vpython
+               the visualization of random fractal terrain with vpython
 
                optional arguments:
                -h, --help            show this help message and exit
                --size [SIZE]         the size of the terrain, default is 40
                --z_scale [Z_SCALE]   this value affect the maximum and minimum height of terrain, default is 70
-               --smoothness [SMOOTHNESS] the smoothness of the terrain, higher this value, smoother the terrain default is 1
+               --smoothness [SMOOTHNESS] the smoothness of the terrain, higher this value, smoother the terrain, default is 1
 ```
 and press F5 to regenerate the terrain
 
