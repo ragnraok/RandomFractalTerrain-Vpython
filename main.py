@@ -18,7 +18,7 @@ def parser_arg(arg):
     name_space = parser.parse_args(arg)
     SIZE = int(name_space.size)
     Z_SCALE = int(name_space.z_scale)
-    SMOOTHNESS = int(name_space.smoothness)
+    SMOOTHNESS = float(name_space.smoothness)
 
 def main_loop():
     from visual import scene, vector, rate
