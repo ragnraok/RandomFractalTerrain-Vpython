@@ -25,6 +25,7 @@ usage: main.py [-h] [--size [SIZE]] [--z_scale [Z_SCALE]]
                --z_scale [Z_SCALE]   this value affect the maximum and minimum height of terrain, default is 70
                --smoothness [SMOOTHNESS] the smoothness of the terrain, higher this value, smoother the terrain default is 1
 ```
+and press F5 to regenerate the terrain
 
 You can import ``alg.py`` in your project to generate the reandom fractal terrain elevation:
 
